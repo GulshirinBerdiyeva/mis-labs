@@ -1,0 +1,14 @@
+plugins {
+    id 'java'
+}
+
+group 'com.bsu.mis'
+version '1.0'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.activecomponents.jadex:jadex-distribution-standard:3.0.76'
+}
